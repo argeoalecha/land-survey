@@ -346,7 +346,7 @@ If you encounter issues:
 
 ## 📈 Examples
 
-### Example 1: 8-Sided Polygon (LOT_7156-C2)
+### Example 1: 8-Sided Polygon (sample_lot)
 
 **Input Data:**
 ```csv
@@ -518,8 +518,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 If you encounter issues or have questions:
-- Review the [STANDALONE_NOTEBOOK_GUIDE.md](STANDALONE_NOTEBOOK_GUIDE.md)
-- Check the [Troubleshooting](#troubleshooting) section
 - Open an issue on GitHub with error details
 
 ---
@@ -576,16 +574,12 @@ If you encounter issues or have questions:
 ### Main Files
 - **Land_survey_Calculator.ipynb** - Main calculator notebook (self-contained)
 - **README.md** - This file (project documentation)
-- **STANDALONE_NOTEBOOK_GUIDE.md** - Detailed usage guide
-- **LOT_7156-C2.csv** - Sample survey data for testing
+- **sample_lot.csv** - Sample survey data for testing
 
 ### Reference Files
 - **survey_visualization.py** - Reference visualization code
 - **test_standalone_calculation.py** - Test script demonstrating calculations
 
-### Legacy Files
-- **Surveyors_Calculator_*.ipynb** - Original notebooks (require external modules)
-- **surveyors-calculator/** - Original calculator modules (deprecated)
 
 ---
 
@@ -597,6 +591,7 @@ If you encounter issues or have questions:
 
 ---
 
-[Report Bug](https://github.com/argeoalecha/land-survey/issues) · [Request Feature](https://github.com/argeoalecha/land-survey/issues) · [Documentation](STANDALONE_NOTEBOOK_GUIDE.md)
+[Report Bug](https://github.com/argeoalecha/land-survey/issues) · [Request Feature](https://github.com/argeoalecha/land-survey/issues) 
+
 
 </div>
