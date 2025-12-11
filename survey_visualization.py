@@ -167,7 +167,7 @@ ax1.text(arrow_x + 3, arrow_y + arrow_length/2, 'N',
 
 ax1.set_xlabel('Easting (meters)', fontsize=12, fontweight='bold')
 ax1.set_ylabel('Northing (meters)', fontsize=12, fontweight='bold')
-ax1.set_title('LOT 715s-C-1 Five-Sided Polygon\nSurvey Plot', 
+ax1.set_title('Sample Lot Five-Sided Polygon\nSurvey Plot', 
              fontsize=14, fontweight='bold', pad=20)
 ax1.grid(True, alpha=0.3, linestyle='--')
 ax1.set_aspect('equal', adjustable='box')
@@ -266,7 +266,7 @@ closure_y = coordinates[-1][1] - coordinates[0][1]
 closure_error = math.sqrt(closure_x**2 + closure_y**2)
 
 summary_text = f"""
-SURVEY SUMMARY - LOT 715s-C-1
+SURVEY SUMMARY - Sample Lot
 {'='*120}
 
 AREA CALCULATIONS:
@@ -293,7 +293,7 @@ ax4.text(0.05, 0.5, summary_text,
         verticalalignment='center',
         bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
 
-plt.suptitle('Comprehensive Survey Analysis - LOT 715s-C-1', 
+plt.suptitle('Comprehensive Survey Analysis - Sample Lot', 
             fontsize=16, fontweight='bold', y=0.98)
 
 plt.savefig('survey_analysis.png', dpi=300, bbox_inches='tight')
