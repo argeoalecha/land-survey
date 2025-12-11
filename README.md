@@ -340,7 +340,6 @@ If you encounter issues:
 2. Review error messages carefully
 3. Verify data format matches examples
 4. Try with sample data first
-5. Refer to [STANDALONE_NOTEBOOK_GUIDE.md](STANDALONE_NOTEBOOK_GUIDE.md)
 
 ---
 
